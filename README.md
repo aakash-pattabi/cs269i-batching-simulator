@@ -31,4 +31,4 @@ The general form for the command is:
 python batchingSimulator.py ./MSFT_2012-06-21_message_10.csv STRIDE [--const_batch_size OR --time_interval]
 ```
 
-Using the flag `--time_interval` as opposed to `--const_batch_size` will batch in a set time increment equal to `STRIDE` seconds.
+When adding a constant number of messages to the open limit order book during each batch evaluation, `STRIDE` refers to the number of orders added. Using the flag `--time_interval` as opposed to `--const_batch_size` will batch in a set time increment equal to `STRIDE` seconds (though this could easily be thought of as e.g. milliseconds or microseconds given access to higher-frequency data).

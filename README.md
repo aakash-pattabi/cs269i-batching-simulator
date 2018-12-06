@@ -16,7 +16,7 @@ Sample results computed from simulation are below. These data were produced by b
 You can clone a copy of this repository with:
 
 ```
-git clone https://github.com/aakash-pattabi/cs269i-batching-simulator
+git clone https://github.com/aakash-pattabi/cs269i-batching-simulator.git
 ```
 
 To reproduce the results shown above, `cd` into the directory and run: 

@@ -1,4 +1,4 @@
-# cs269i-batching-simulator
+# A Simulator for Evaluating Welfare Implications of Frequent Batched Auctions in High Frequency Trading (HFT)
 
 An analytical tool for evaluating welfare gains and losses from policy responses to high frequency trading (HFT). In particular, this simulator implements two batching paradigms on historical order book data (a sample file of which is provided in this repository). Experimenters can either batch by adding message blocks of a fixed size to the order book at every evaluation step, or by adding messages within a fixed time interval.  
 
